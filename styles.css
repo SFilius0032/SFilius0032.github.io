@@ -38,7 +38,7 @@ hr {
     margin-bottom: 20px;
 }
 
-ul {
+#menu {
     list-style-type: none;
     margin-top: -22px;
     margin-left: -8px;
@@ -72,4 +72,8 @@ li a:hover {
 .active {
     background-color: rgb(159, 215, 219);
     color: white;
+}
+.socials {
+    margin-top: 8px;
+    text-align: left;
 }
