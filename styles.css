@@ -1,3 +1,75 @@
-body {background-color: lightgoldenrodyellow;}
-anchor {color: darkblue;}
-anchorclicked {color:blueviolet}
+body {
+    background-color: rgb(159, 215, 219);
+}
+
+anchor {
+    color: darkblue;
+}
+
+anchorclicked {
+    color: blueviolet
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.subtitel {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: -3px;
+}
+
+.gegevens {
+    margin-top: 0px;
+    margin-bottom: -5px;
+}
+
+hr {
+    color: black;
+    border: 1px solid black;
+    margin-bottom: -5px;
+}
+
+.doel {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: -22px;
+    margin-left: -8px;
+    padding: 0;
+    width: 130px;
+    background-color: rgb(6, 142, 152);
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+li a {
+    display: block;
+    color: darkblue;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+li:last-child a {
+    border-bottom: none;
+}
+
+li a:hover {
+    background-color: rgb(159, 215, 219);
+    color: blueviolet;
+}
+
+.active {
+    background-color: rgb(159, 215, 219);
+    color: white;
+}
