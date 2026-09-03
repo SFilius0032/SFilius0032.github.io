@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(159, 215, 219);
+    background-color: rgb(244, 249, 210);
 }
 
-anchor {
+a {
     color: darkblue;
 }
 
-anchorclicked {
+a:hover {
     color: blueviolet
 }
 
@@ -76,4 +76,43 @@ li a:hover {
 .socials {
     margin-top: 8px;
     text-align: left;
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+caption {
+    caption-side: top;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.completedcourse {
+    background-color: rgb(10, 209, 26);
+}
+.ungradedcourse {
+    background-color: rgb(244, 249, 210);
+}
+.partialungradedcourse {
+    background-color: rgb(241, 241, 231);
+}
+.partialpassedcourse {
+    background-color: rgb(234, 197, 12);
+}
+.failedcourse {
+    background-color: rgb(255, 0, 0);
+}
+meter {transform: rotate(-90deg);
+width: 380px;
+height: 250px;
+margin-top: 50px;
+position: absolute;
+inset: 490px 0 0 325px;}
+meter::after {
+    content: "0/60EC";
+    position: absolute;
+    top: 115px;
+    left: 125px;
+    transform: rotate(90deg);
 }
