@@ -1,5 +1,6 @@
+/*general*/
 body {
-    background-color: rgb(244, 249, 210);
+    background-color: rgb(122, 120, 120);
 }
 
 a {
@@ -23,9 +24,9 @@ h2 {
     margin-bottom: -3px;
 }
 
-.gegevens {
-    margin-top: 0px;
-    margin-bottom: -5px;
+button {
+    background-color: lightblue;
+    cursor: pointer;
 }
 
 hr {
@@ -34,10 +35,29 @@ hr {
     margin-bottom: -5px;
 }
 
+/*profile page*/
+.gegevens {
+    margin-top: 0px;
+    margin-bottom: -5px;
+}
+
+.socials {
+    margin-top: 8px;
+    text-align: left;
+    background-color: rgb(122, 120, 120);
+}
+
+#github-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/*goals page*/
 .doel {
     margin-bottom: 20px;
 }
 
+/*homepage*/
 #menu {
     list-style-type: none;
     margin-top: -22px;
@@ -74,11 +94,15 @@ li a:hover {
     color: white;
 }
 
-.socials {
-    margin-top: 8px;
-    text-align: left;
+.home-image {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 275px;
+    top: 50px;
 }
 
+/*dashboard page*/
 table,
 td,
 th {
@@ -98,11 +122,11 @@ caption {
 }
 
 .ungradedcourse {
-    background-color: rgb(244, 249, 210);
+    background-color: rgb(122, 120, 120);
 }
 
 .partialungradedcourse {
-    background-color: rgb(241, 241, 231);
+    background-color: rgb(244, 244, 239);
 }
 
 .partialpassedcourse {
@@ -128,16 +152,4 @@ meter::after {
     top: 115px;
     left: 125px;
     transform: rotate(90deg);
-}
-
-.home-image {
-    margin-left: auto;
-    margin-right: auto;
-    position:relative;
-    left: 275px;
-    top: 50px;
-}
-button {
-    background-color: lightblue;
-    cursor: pointer;
 }
