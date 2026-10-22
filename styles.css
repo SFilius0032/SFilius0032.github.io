@@ -46,6 +46,23 @@ hr {
     margin-bottom: -5px;
 }
 
+.external-menu {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.external-links {
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+    gap: 20px 20px;
+}
+
 /*profile page*/
 .gegevens {
     margin-top: 0px;
@@ -193,5 +210,3 @@ caption {
 .failedcourse {
     background-color: rgb(255, 0, 0);
 }
-
-/*richting pagina*/
