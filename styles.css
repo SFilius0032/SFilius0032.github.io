@@ -1,6 +1,5 @@
 /*general*/
 body {
-    background-color: rgb(122, 120, 120);
     background-image: url('img/Screenshot 2026-10-21 140010.png');
 }
 
@@ -46,6 +45,7 @@ hr {
     margin-bottom: -5px;
 }
 
+/*external menu*/
 .external-menu {
     box-sizing: border-box;
     width: 100%;
@@ -209,4 +209,55 @@ caption {
 
 .failedcourse {
     background-color: rgb(255, 0, 0);
+}
+
+.meters {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 24px 0;
+}
+
+.meter {
+    --progress: 0%;
+    width: 130px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+ background: conic-gradient(
+    #ddd 0,
+    #ddd calc(100% - var(--progress)),
+    #0ad11a calc(100% - var(--progress)),
+    #0ad11a 100%);
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.meter::before {
+    content: "";
+    position: absolute;
+    inset: 12px;
+    border-radius: 50%;
+    background: white;
+}
+
+.meter span,
+.meter p {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    text-align: center;
+}
+
+.meter span {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.meter p {
+    top: 68%;
+    transform: translateX(-50%);
+    margin: 0;
 }
